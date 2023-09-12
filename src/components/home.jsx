@@ -10,7 +10,6 @@ const Home = () => {
     return(
         <>
             <Header />
-            <div>This is the homepage</div>
         </>
     )
 }
