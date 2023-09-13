@@ -60,3 +60,47 @@ header{
   padding: .7rem;
   border-radius: 50%;
 }
+
+.overhead_info{
+  width: 20em;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 10% 3rem;
+}
+
+.sub_info{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sub_info p{
+  font-family: sans-serif;
+  font-size: .9rem;
+}
+
+.sub_icons{
+  display: inline-flex;
+}
+
+.sub_icons span + span {
+  margin-left: 3rem;
+}
+
+.sub_icons > span {
+  display: flex;
+  align-items: center;
+}
+
+.sub_icons span img{
+  margin-right: .7rem;
+}
+
+.watch_button{
+  background-color: #be123c;
+  width: fit-content;
+  padding: .7rem 1rem;
+  border-radius: 5px;
+}
