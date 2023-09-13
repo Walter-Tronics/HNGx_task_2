@@ -3,6 +3,7 @@ import axios from "axios";
 import movieBox from "../assets/tv.png";
 import imdb from "../assets/IMDB.png";
 import tomato from "../assets/tomato.png";
+import Search from "./search";
 
 
 const Header = () => {
@@ -48,6 +49,8 @@ const Header = () => {
                     <img src={movieBox} height='50px' width='50px'/>
                     <p>MovieBox</p>
                 </div>
+
+                <Search />
 
                 <div className="menu">
                     <p>Sign in</p>
