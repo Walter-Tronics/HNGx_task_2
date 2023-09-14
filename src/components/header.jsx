@@ -7,7 +7,7 @@ import Search from "./search";
 
 
 const Header = () => {
-    const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
 
 
   async function fetch(){
@@ -41,7 +41,7 @@ const Header = () => {
         <header>
             <div className='bg'>
                 <div className="overlay"></div>
-                <img src={`${img_url}original/${data[4].backdrop_path}`} />
+                <img src={`${img_url}original/${data[2].backdrop_path}`} />
             </div>
 
             <div className="overhead">
@@ -59,7 +59,7 @@ const Header = () => {
             </div>
 
             <div className="overhead_info">
-              <h1>{data[4].original_title}</h1>
+              <h1>{data[2].original_title}</h1>
               <div className="sub_info">
                 <div className="sub_icons">
                   <span>
@@ -71,7 +71,7 @@ const Header = () => {
                   </span>
                 </div>
 
-                <p>{data[4].overview}</p>
+                <p>{data[2].overview}</p>
 
                 <div className="watch_button">
                   <i className="fa-solid fa-play-circle"></i> <span>WATCH TRAILER</span>
