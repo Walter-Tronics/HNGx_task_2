@@ -30,7 +30,7 @@ header{
 .overlay{
   position: absolute;
   width: 100%;
-  height: 99%;
+  height: 99.5%;
   background: rgba(0, 0, 0, .5);
 }
 
@@ -104,3 +104,86 @@ header{
   padding: .7rem 1rem;
   border-radius: 5px;
 }
+
+
+/* Search styling starts */
+.search_box{
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-inline: .5rem;
+}
+
+.search_box input{
+  width: 90%;
+  background: transparent;
+  border: 0;
+  color: white;
+  padding: .5rem .5rem .5rem 0;
+  outline: none;
+}
+
+.search_box input::placeholder{
+  color: white;
+}
+
+.search_box i{
+  cursor: pointer;
+}
+
+.container{
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-auto-rows: 25rem;
+  gap: 1rem;
+}
+/* Search styling ends */
+
+
+/* Card styling starts */
+.card{
+  position: relative;
+}
+
+.card i{
+  position: absolute;
+  top: 1%;
+  left: 80%;
+  background-color: rgb(185, 181, 181);
+  padding: .3rem .28rem .2rem .28rem;
+  border-radius: 50%;
+}
+
+.fav-icon{
+  color: red;
+}
+
+.fav{
+  color: white;
+}
+
+.card img{
+  width: 100%;
+  height: 250px;
+}
+
+/* .card_info{
+  margin-top: .5rem;
+} */
+
+.card_info span{
+  color: rgba(128, 128, 128, 0.815);
+  font-size: .7rem;
+}
+
+.card_info h2{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.1rem;
+}
+/* Card styling ends */
