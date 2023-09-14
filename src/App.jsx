@@ -4,6 +4,7 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/home'
 import Search from './components/search-result';
+import Details from './components/details';
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/search' element={<Search />} />
+        <Route path='/movies/:id' element={<Details />} />
       </Routes>
     </>
   )
