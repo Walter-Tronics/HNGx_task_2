@@ -376,7 +376,7 @@ header{
     display: none;
   }
   .info{
-    display: '';
+    flex-direction: column;
   }
 }
 /* Responsiveness ends */
