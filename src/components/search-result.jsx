@@ -40,7 +40,7 @@ const Result = () => {
 
     return Object.keys(data).length > 0 ? (
         <>
-            <h1>Search results for {query}</h1>
+            <h1 className="result_head">Showing search results for <i>{query}</i></h1>
 
             <div className="container">
                 {data.map(item => (
