@@ -44,37 +44,39 @@ const Header = () => {
                 <img src={`${img_url}original/${data[2].backdrop_path}`} />
             </div>
 
-            <div className="overhead">
-                <div className="comp">
-                    <img src={movieBox} height='50px' width='50px'/>
-                    <p>MovieBox</p>
-                </div>
+            <div className="head_cont">
+              <div className="overhead">
+                  <div className="comp">
+                      <img src={movieBox} height='50px' width='50px'/>
+                      <p>MovieBox</p>
+                  </div>
 
-                <Search />
+                  <Search />
 
-                <div className="menu">
-                    <p>Sign in</p>
-                    <i className="fa-solid fa-bars"></i>
-                </div>
-            </div>
+                  <div className="menu">
+                      <p>Sign in</p>
+                      <i className="fa-solid fa-bars"></i>
+                  </div>
+              </div>
 
-            <div className="overhead_info">
-              <h1>{data[2].original_title}</h1>
-              <div className="sub_info">
-                <div className="sub_icons">
-                  <span>
-                    <img src={imdb}/> <span>86.0/100</span>
-                  </span> 
+              <div className="overhead_info">
+                <h1>{data[2].original_title}</h1>
+                <div className="sub_info">
+                  <div className="sub_icons">
+                    <span>
+                      <img src={imdb}/> <span>86.0/100</span>
+                    </span> 
 
-                  <span>
-                    <img src={tomato}/> <span>97%</span>
-                  </span>
-                </div>
+                    <span>
+                      <img src={tomato}/> <span>97%</span>
+                    </span>
+                  </div>
 
-                <p>{data[2].overview}</p>
+                  <p>{data[2].overview}</p>
 
-                <div className="watch_button">
-                  <i className="fa-solid fa-play-circle"></i> <span>WATCH TRAILER</span>
+                  <div className="watch_button">
+                    <i className="fa-solid fa-play-circle"></i> <span>WATCH TRAILER</span>
+                  </div>
                 </div>
               </div>
             </div>
