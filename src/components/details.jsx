@@ -81,18 +81,18 @@ const Details = () => {
                         <div className="info">
                             <div className="texts">
                                 <h4>
-                                <span>{data.title}</span>
+                                <span data-testid="movie-title">{data.title}</span>
                                 <i class="fa-solid fa-circle"></i> 
-                                <span>{data.release_date}</span> 
+                                <span data-testid="movie-release-date">{data.release_date}</span> 
                                 <i class="fa-solid fa-circle"></i>PG-13 
                                 <i class="fa-solid fa-circle"></i> 
-                                <span>{data.runtime}m</span>
+                                <span data-testid="movie-runtime">{data.runtime}m</span>
                                 <span className="genre">
                                     {data.genres.map(gen => (<span>{gen.name}</span>))}
                                 </span>
                                 </h4>
 
-                                <p>{data.overview}</p>
+                                <p data-testid="movie-overview">{data.overview}</p>
 
                                 <p>Director:{' '}
                                 <span>

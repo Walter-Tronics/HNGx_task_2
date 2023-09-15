@@ -11,7 +11,7 @@ const Card = ({id, src, release, title}) => {
 
     return (
         <>
-            <Link to={`/movies/${id}`} className="card">
+            <Link data-testid="movie-card" to={`/movies/${id}`} className="card">
                 <i onClick={e => {
                 e.stopPropagation(); 
                 addToFav();
@@ -19,12 +19,12 @@ const Card = ({id, src, release, title}) => {
                 className={`fa-solid fa-heart ${fav ? 'fav-icon' : 'fav'}`}></i>
 
                 <div className="poster">
-                    <img src={src}/>
+                    <img data-testid="movie-poster" src={src}/>
                 </div>
 
                 <div className="card_info">
-                    <span>{release}</span>
-                    <h2>{title}</h2>
+                    <span data-testid="movie-release-date">{release}</span>
+                    <h2 data-testid="movie-title">{title}</h2>
                 </div>
             </Link>
         </>
