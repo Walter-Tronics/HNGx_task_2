@@ -135,7 +135,6 @@ header{
 }
 
 .container{
-  padding: 1rem;
   margin: 0 auto;
   max-width: 1000px;
   display: grid;
@@ -374,8 +373,23 @@ header{
   .overhead{
     flex-direction: column;
   }
+  .head_cont{
+    padding: 1em;
+  }
+  .overhead_info{
+    margin-top: 30%;
+  }
+  .container{
+    padding: 2em;
+  }
+  .featured{
+    padding: 1em;
+  }
   .overhead .menu{
     display: none;
+  }
+  .side{
+    padding: 1em;
   }
 }
 /* Responsiveness ends */
