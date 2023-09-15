@@ -363,7 +363,7 @@ header{
 
 
 /* Responsiveness starts */
-@media(max-width: 500px){
+@media(max-width: 550px){
   .side_bar{
     display: none;
   }
@@ -392,6 +392,9 @@ header{
   .card img{
     width: 100%;
     height: 350px;
+  }
+  .mov_details{
+    padding: 0 1em;
   }
   .side{
     padding: 1em;
