@@ -381,6 +381,7 @@ header{
   }
   .container{
     padding: 2em;
+    grid-auto-rows: 25rem;
   }
   .featured{
     padding: 1em;
