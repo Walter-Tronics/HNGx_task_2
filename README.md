@@ -1,8 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Movie Website
+## This is a movie website project to fetch movies data from TMDB API
+### Instructions
+* Clone the repo into your system
+* using git run 'npm install' to install all dependencies
+* Since the project is done with the vite tool run 'npm run dev', the project start should running in localhost
+* Open the project in your desired editor to view code
