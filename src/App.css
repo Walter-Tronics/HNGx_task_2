@@ -7,9 +7,9 @@
 
 header{
   color: white;
-  height: 37.5rem;
+  height: 100vh;
   flex-shrink: 0;
-  margin-bottom: 15rem;
+  /* margin-bottom: 15rem; */
   position: relative;
   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('/src/assets/b7e8be84d7248b8b9812172cad1cd0c9.jpeg'), lightgray 50% / contain no-repeat;
   background-position: center; */
@@ -19,19 +19,29 @@ header{
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: fit-content;
+  height: 100%;
   margin-bottom: 3rem;
 }
 
 .bg img{
   width: 100%;
+  height: 100%;
 }
 
 .overlay{
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 99.5%;
   background: rgba(0, 0, 0, .5);
+}
+
+.head_cont{
+  height: 100vh;
+  border: 1px solid;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .overhead{
@@ -39,8 +49,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  max-width: 1280px;
 }
 
 .overhead > div{
@@ -67,7 +75,7 @@ header{
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
-  margin: 10% 3rem;
+  margin-top: 15%;
 }
 
 .sub_info{
@@ -196,12 +204,18 @@ header{
 /* Card styling ends */
 
 /* Featured movie styling */
+.featured{
+  margin: 0 auto;
+  max-width: 1200px;
+  border: 1px solid;
+  margin-top: 5rem;
+}
+
 .heading{
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1280px;
   padding: 1rem;
+  padding: 0;
 }
 
 .heading h2{
