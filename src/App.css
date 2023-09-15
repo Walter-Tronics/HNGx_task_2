@@ -370,3 +370,14 @@ header{
 }
 /* Details page styling ends */
 
+
+/* Responsiveness starts */
+@media(max-width: 500px){
+  .side_bar{
+    display: none;
+  }
+  .info{
+    display: '';
+  }
+}
+/* Responsiveness ends */
