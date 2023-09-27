@@ -5,6 +5,7 @@ import { useMovie } from "../context";
 import ReactPlayer from "react-player";
 import movieBox from "../assets/tv.png";
 import others from "../assets/others.jpeg"
+import Loader from "./loader";
 
 const Details = () => {
     const [data, setData] = useState([]);
@@ -130,7 +131,7 @@ const Details = () => {
 
 
         </>
-    ) : 'Loading...';
+    ) : <Loader />;
 }
 
 export default Details
