@@ -27,6 +27,7 @@ background: #F5F9FF; */
 	place-items: center;
 	align-content: center;
 	height: 100vh;
+	z-index: 999;
 	/* letter-spacing: 0.1em;
 	text-transform: uppercase; */
 }
