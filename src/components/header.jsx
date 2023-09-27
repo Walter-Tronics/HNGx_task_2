@@ -5,6 +5,7 @@ import imdb from "../assets/IMDB.png";
 import tomato from "../assets/tomato.png";
 import Search from "./search";
 import { useMovie } from "../context";
+import Loader from "./loader";
 
 
 const Header = () => {
@@ -79,7 +80,7 @@ const Header = () => {
             </div>
         </header>
     </>
-  ) : 'Data pending...';
+  ) : <Loader />;
 }
 
 export default Header
