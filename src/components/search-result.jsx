@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useMovie } from "../context";
 import Card from "./card";
 import axios from "axios";
+import Loader from "./loader";
 
 
 const Result = () => {
@@ -48,7 +49,7 @@ const Result = () => {
                 ))}
             </div>
         </>
-    ) : 'Loading...';
+    ) : <Loader />;
 }
 
 export default Result;
