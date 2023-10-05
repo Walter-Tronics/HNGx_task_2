@@ -29,7 +29,7 @@ Follow these steps to set up the project locally:
     ```
     
 ### Usage
-To run the Photo Gallery locally, follow these steps:
+To run the Movies website locally, follow these steps:
 
 1. **Start the Development Server:** Launch the Vite development server:
    ```bash
