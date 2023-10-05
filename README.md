@@ -36,5 +36,5 @@ To run the Photo Gallery locally, follow these steps:
     npm run dev
     ```
 
-3. **Open in Browser:** Open your web browser and navigate to http://localhost:5173 to access the PhotoGallery.
+3. **Open in Browser:** Open your web browser and navigate to http://localhost:5173 to access the Movies Website.
 
