@@ -1,5 +1,9 @@
 # Movie Website
 ## This is a movie website project to fetch movies data from TMDB API
+
+![image](https://github.com/Walter-Tronics/HNGx_task_2/assets/81018331/6d8d6cb5-55d8-40bc-ab16-bd349db49a6d)
+
+
 **Prerequisites**
 Before you begin, ensure you have met the following requirements:
 
