@@ -37,4 +37,16 @@ To run the Movies website locally, follow these steps:
     ```
 
 3. **Open in Browser:** Open your web browser and navigate to http://localhost:5173 to access the Movies Website.
+  
+### Features
+- **User Authentication**: Users can sign up and log in to the gallery.
+- **Image Display**: Display a collection of images with titles and tags.
+- **Drag-and-Drop**: Users can rearrange images within the gallery using the Drag-and-Drop feature.
+- **Image Search**: Users can search for images by tags.
+- **Responsive Design**: The app is responsive and adapts to different screen sizes.
 
+### Technologies Used
+- Vite: The project uses Vite as the build tool and development server.
+- React: The frontend is built with React for UI components.
+- Supabase: Supabase is used for user authentication.
+- React-beautiful-dnd: The Drag-and-Drop feature is implemented using react-beautiful-dnd.
